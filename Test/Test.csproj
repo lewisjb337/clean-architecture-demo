@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Test-99757292-8636-425a-90d3-c9debd52ebdc</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Persistence\Demo.Persistence.csproj" />
+    <ProjectReference Include="..\Demo.Models\Demo.Models.csproj" />
+    <ProjectReference Include="..\Demo.Application\Demo.Application.csproj" />
+  </ItemGroup>
+
+</Project>

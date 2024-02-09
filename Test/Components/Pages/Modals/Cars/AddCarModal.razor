@@ -1,0 +1,27 @@
+﻿@using Test.Components.Pages.Modules;
+
+﻿<Modal @ref="_modal" Title="Add New Car" ButtonColor="btn-primary" ActionName="Add Car"
+        OnAction="async () => await AddCar()" OnModalClosed="OnModalClosed">
+    <BodyContent>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="make" placeholder="Ford" @bind="Make">
+            <label for="make">Make</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="model" placeholder="Fiesta" @bind="Model">
+            <label for="model">Model</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="date" class="form-control" id="year" placeholder="2015" @bind="Year">
+            <label for="year">Year</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="registration" placeholder="AB12CDE" @bind="Registration">
+            <label for="registration">Registration</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="mileage" placeholder="50,000" @bind="Mileage">
+            <label for="mileage">Mileage</label>
+        </div>
+    </BodyContent>
+</Modal>

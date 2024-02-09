@@ -1,0 +1,51 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<div class="container">
+	<h1>Welcome</h1>
+	<h4 class="mt-5">Introduction</h4>
+	<p class="lead">
+		This web application is intended to serve as a starting point for developers looking to build a comprehensive web application with Blazor. The application is
+		built following <a href="https://www.freecodecamp.org/news/a-quick-introduction-to-clean-architecture-990c014448d2/">Clean Architecture</a> and 
+		<a href="https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/">SOLID</a> principles, as well as utilizing the <a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs">CQRS Pattern</a> for request
+		and response handling. 
+		<br/>
+		<br/>
+		To get you started, there is already a page with some example information regarding cars; this is to demonstrate in the code how to perform 
+		<b>GET</b> request for all car data and cars with a specific id, as well as <b>CREATE</b>, <b>UPDATE</b> and <b>DELETE</b> requests. Each of these requests is also wrapped with a notification
+		component to allow you to visually display toasts with custom information based on if the request succeeds or fails.
+	</p>
+	<h4 class="mt-5">User Management</h4>
+	<p class="lead">
+		The application has been built with <a href="https://learn.microsoft.com/en-us/entra/identity-platform/">Microsoft Identity</a> built in, this provides you with a range of features ready to use out-the-box.
+		For example, the Cars page has been given a special attribute in the code to only allow Authorized, or logged in users, access to view its content. This can be especially useful for preventing unauthorized 
+		users from accessing areas of the application you don't want them to see; furthermore, you can also assign <a href="https://learn.microsoft.com/en-us/entra/external-id/customers/how-to-use-app-roles-customers">roles</a>
+		to give specific users who are authorized further access that not all authorized users may be able to see. This application offers the basics, including user registration, login, logout, and account management.
+		To learn more on this, visit the official documentation by Microsoft.
+	</p>
+	<h4 class="mt-5">Included Features</h4>
+	<p class="lead mb-5">
+		As well as providing you with a scalable, secure and modern architecture to build your application on top of, we have also included some additional features that provide useful functionality in your application 
+		and in your code.
+		<br/>
+		<br/>
+		When creating, updating or deleting entries in the Car section, you will notice toasts pop-up alerting you to the success/failure of these actions, this feature is a custom component we have developed to capture
+		requests and responses and provide users with a simplistic visual feedback of the operations state. You can build on top of this further and use this component wherever you deem necessary, it is worth studying the 
+		code for this logic to fully understand how this works so you can best develop and use it further throughout the application.
+		<br/>
+		<br/>
+		You will also have noticed that modals pop-up when selecting the create, edit and delete options on the Car page. This, albeit simple looking modal, is also a custom component we have built to allow greater ease and scalability
+		in the application. Writing the logic and styling for this again and again would become repetetive and inefficient, so we decided to build out a component to handle this logic dynamically. Again we recommend studying the code for this
+		before further utilizing and developing	 it further as required.
+		<br/>
+		<br/>
+		Another small but rather useful tool we implemented was the search functionality, you can find an example of this on the Car page. This tool allows you to search through datasets to find keywords or values you enter,
+		this can be modified and changed to work to your needs and allows you to provide refined functionality to your application.
+		<br/>
+		<br/>
+		We developed the application using the CQRS Pattern to optimise the logic of making requests and handling responses, however this did not provide a clean enough solution, we further developed a custom request handler to allow
+		requests and responses to be handled dynamically, this is something that you will want to fully understand before developing further with the application as it is the backbone of the logic for data handling. This custom
+		solution provides significant value, with greater code efficieny and less clutter, allowing you to focus on developing your ideas further, atop a scalable, reliable and secure platform.
+	</p>
+</div>	

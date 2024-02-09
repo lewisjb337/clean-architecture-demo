@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "oytccU8oot/6LLVGB4+61IZaAHUhMOVTxB1TAasc40RVsgda+myE7aG29EBpY4qaZngvifQhiDBsmHVFQVRlgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lewis.baxter\\Documents\\Repositories\\Demo\\Demo.Request.Handlers\\Demo.Request.Handlers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lewis.baxter\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\lewis.baxter\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\lewis.baxter\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\lewis.baxter\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\lewis.baxter\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\lewis.baxter\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

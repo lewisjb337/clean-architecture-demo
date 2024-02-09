@@ -1,0 +1,9 @@
+﻿﻿@using Test.Components.Pages.Modules
+﻿@using Test.Components.Pages.Modals.Cars
+
+<Modal @ref="_modal" Title="Delete Car" ButtonColor="btn-danger" ActionName="Delete"
+       OnAction="Delete" OnModalClosed="OnModalClosed">
+    <BodyContent>
+        Are you sure you would like to delete this entry, this action is irreversible?
+    </BodyContent>
+</Modal>

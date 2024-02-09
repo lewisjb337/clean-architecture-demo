@@ -1,0 +1,9 @@
+﻿<div id="liveToast" class="toast show" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="true">
+    <div class="toast-header text-white" style="background-color: @Notification.BackgroundColourDark !important;">
+        <strong class="me-auto">@Notification.Title</strong>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close" @onclick="DeleteNotification"></button>
+    </div>
+    <div class="toast-body" style="background-color: @Notification.BackgroundColourLight !important">
+        @Notification.Message
+    </div>
+</div>

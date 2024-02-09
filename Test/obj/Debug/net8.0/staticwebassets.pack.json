@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lewis.baxter\\Documents\\Repositories\\Demo\\Test\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Test.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Test.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lewis.baxter\\Documents\\Repositories\\Demo\\Test\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\lewis.baxter\\Documents\\Repositories\\Demo\\Test\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lewis.baxter\\Documents\\Repositories\\Demo\\Test\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lewis.baxter\\Documents\\Repositories\\Demo\\Test\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Test.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Test.props",
+      "PackagePath": "build\\Test.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Test.props",
+      "PackagePath": "buildMultiTargeting\\Test.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Test.props",
+      "PackagePath": "buildTransitive\\Test.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
